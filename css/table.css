@@ -1,0 +1,76 @@
+.table-container {
+  padding: 10px 0;
+}
+
+.table-header {
+  background-color: #e6e6e6;
+  border-radius: 3px;
+  box-shadow: 1px 1px 0px rgba(50, 50, 50, .8);
+}
+
+.table-header .title {
+  border-right: 1px solid #cfcfcf;
+  display: block;
+  font-weight: bold;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  width: 100%;
+}
+
+.table-header > div > div:last-child .title {
+  border-right: none;
+}
+
+.table-body {
+  margin-top: 5px;
+}
+
+.table-body .row {
+  border: 1px solid #cdcdcd;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+  margin-bottom: 5px;
+  padding: 10px 2px;
+  position: relative;
+}
+
+.table-body .row:hover {
+  background-color: rgba(210, 219, 224, .5);
+  color: #020202 !important;
+}
+
+.table-body .row:hover,
+.table-body .row:hover .menu {
+  color: #f9aa33;
+  cursor: pointer;
+}
+
+.table-body .row .menu {
+  color: #000;
+  font-size: 19px;
+  font-weight: bolder;
+  position: absolute;
+  right: -10px;
+  top: 5px;
+}
+
+.table-body .row .menu ul {
+  background-color: rgba(0, 0, 0, .85);
+  border-radius: 3px;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  right: 100%;
+  top: 0;
+}
+
+.table-body .row .menu ul li {
+  list-style-type: none;
+}
+
+.table-body .row .menu ul li a {
+  color: #fff;
+}

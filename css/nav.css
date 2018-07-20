@@ -1,0 +1,36 @@
+.nav-fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  background-color: #232f34;
+  border-bottom: 2px #d2dbe0;
+  color: #f0f0f0;
+  height: 60px;
+}
+
+nav .menu {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav .menu li {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+}
+
+nav .menu li:last-child {
+  padding-right: 0;
+}
+
+nav .menu li a {
+  color: #f9aa33;
+  display: block;
+}

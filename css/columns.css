@@ -1,0 +1,48 @@
+@import './columns/main.css';
+
+[class^='col-'] {
+  float: left;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.row-fluid [class^='col-'] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row-height [class^='col-'] {
+  height: 100%;
+}
+
+.row {
+	width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-fluid{
+  padding: 0;
+}
+
+.row-pad {
+  padding: 0 0 0 10px;
+}
+
+.row-height {
+  height: 100%;
+}
+
+.row > div:first-child {
+  padding-left: 0px;
+}
+
+.row > div:last-child {
+  padding-right: 0px;
+}

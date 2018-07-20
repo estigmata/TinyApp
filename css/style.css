@@ -1,4 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Ubuntu+Condensed';
+@import './login.css';
+@import './nav.css';
+@import './sidebar.css';
+@import './columns.css';
+@import './table.css';
 
 body,
 html {
@@ -17,6 +22,10 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 button,
 input {
   color: #020202;
@@ -24,50 +33,16 @@ input {
   font-size: 15px;
 }
 
-.login-container {
-  background-color: #d2dbe0;
-  border-bottom: 2px solid #232f34;
-  border-top: 5px solid #232f34;
-  height: 40vh;
-  left: 50%;
-  position: fixed;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+.wrapper {
+  padding-top: 60px;
 }
 
-.login-form {
-  margin: 0 auto;
-  width: 30%;
+.container {
+  height: 100%;
+  padding: 0 20px;
 }
 
-.form-group > label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-input > input {
-  border: 1px solid #232f34;
-  border-radius: 3px;
-  margin-bottom: 5px;
-  padding: 5px 10px;
-  width: 100%;
-}
-
-.login-buttons {
-  padding: 5px 0;
-}
-
-.login-buttons > button {
-  background-color: #607d8b;
-  border: 1px solid #455a64;
-  border-radius: 3px;
-  color: #fff;
-  cursor: pointer;
-  padding: 5px 10px;
-  width: 120px;
-}
-
-.login-buttons > button:hover {
-  background-color: #546e7a;
+.main-container {
+  height: calc(100vh - 60px);
+  overflow: auto;
 }

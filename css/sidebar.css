@@ -1,0 +1,8 @@
+sidebar {
+  background-color: #d2dbe0;
+  border-right: 1px solid #232f34;
+  display: block;
+  float: left;
+  height: calc(100vh - 60px);
+  width: 250px;
+}
