@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu+Condensed';
+
+body,
+html {
+  color: #020202;
+  height: 100vh;
+  font-family: 'Ubuntu Condensed';
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button,
+input {
+  color: #020202;
+  font-family: 'Ubuntu Condensed';
+  font-size: 15px;
+}
+
+.login-container {
+  background-color: #d2dbe0;
+  border-bottom: 2px solid #232f34;
+  border-top: 5px solid #232f34;
+  height: 40vh;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.login-form {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.form-group > label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input > input {
+  border: 1px solid #232f34;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.login-buttons {
+  padding: 5px 0;
+}
+
+.login-buttons > button {
+  background-color: #607d8b;
+  border: 1px solid #455a64;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  width: 120px;
+}
+
+.login-buttons > button:hover {
+  background-color: #546e7a;
+}
