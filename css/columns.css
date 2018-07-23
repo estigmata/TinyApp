@@ -1,4 +1,6 @@
 @import './columns/main.css';
+@import './columns/sm.css';
+@import './columns/xs.css';
 
 [class^='col-'] {
   float: left;

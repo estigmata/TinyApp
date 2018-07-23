@@ -1,0 +1,32 @@
+.modal {
+  background-color: #d2dbe0;
+  border-radius: 3px;
+  box-shadow: 2px 2px 8px rgba(35, 47, 52, 0.5);
+  display: none;
+  height: 380px;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 285px;
+  z-index: 500;
+}
+
+.modal h3 {
+  margin-top: 0;
+}
+
+.modal-container {
+  padding: 10px 20px;
+}
+
+.with-modal {
+  background-color: rgba(20, 20, 20, .8);
+  display: none;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}

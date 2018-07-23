@@ -1,9 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Ubuntu+Condensed';
 @import './login.css';
+@import './form.css';
 @import './nav.css';
 @import './sidebar.css';
 @import './columns.css';
 @import './table.css';
+@import './modal.css';
 
 body,
 html {

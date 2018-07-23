@@ -1,0 +1,30 @@
+.form-group > label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input > input {
+  border: 1px solid #232f34;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.form-buttons {
+  padding-top: 10px;
+}
+
+.form-buttons > button {
+  background-color: #607d8b;
+  border: 1px solid #455a64;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  width: 120px;
+}
+
+.form-buttons > button:hover {
+  background-color: #546e7a;
+}

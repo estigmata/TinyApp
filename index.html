@@ -9,7 +9,10 @@
 </head>
 <body>
   <div class="login-container">
-    <div class="login-form">
+    <div class="login-form" id="login">
+      <div class="logo">
+        <img src="./images/logo.png" />
+      </div>
       <h3>Sing in</h3>
       <div class="form-group">
         <label>Username / Email:</label>
@@ -18,14 +21,16 @@
         </div>
         <label>Password:</label>
         <div class="form-input">
-          <input />
+          <input type="password" />
         </div>
       </div>
-      <div class="login-buttons">
-        <button>Login</button>
+      <div class="form-buttons">
+        <button id="button-login" onclick="singin()">Login</button>
       </div>
     </div>
   </div>
+  <script src="./js/initialize.js"></script>
+  <script src="./js/login.js"></script>
 </body>
 
 </html>
