@@ -1,4 +1,9 @@
-const isLogin = JSON.parse(localStorage.login).status
+const isLogin = false
+
+if ('login' in localStorage) {
+  isLogin = JSON.parse(localStorage.login).status
+}
+
 if (isLogin) {
   window.location.href = 'home.html'
 }
